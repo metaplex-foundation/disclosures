@@ -29,7 +29,7 @@ This file summarizes the current Metaplex Protocol fee schedule for transparency
 | Instruction           | Fee (SOL) |
 |-----------------------|-----------|
 | User deposit fee      | 0%        |
-| User withdraw fee     | 2%        |
+| User withdraw fee     | 0%        |
 | Creator withdraw fee  | 5%*       |
 
 *This fee only applies when creators withdraw liquidity
