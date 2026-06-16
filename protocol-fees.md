@@ -15,14 +15,14 @@ This file summarizes the current Metaplex Protocol fee schedule for transparency
 | Protocol fee     | 0.50%     |
 | Creator revenue  | 0.60%     |
 
-### Post Bond Trading
+### Bonding Curve CPMM
 
 | Instruction      | Fee (SOL) |
 |------------------|-----------|
 | Protocol fee     | 0.40%     |
 | Creator revenue  | 0.60%     |
-| LP fees          | 0.17%     |
-| Raydium fee      | 0.08%     |
+| LP fees          | 0.21%     |
+| Raydium fee      | 0.04%     |
 
 ### Launch Pool
 
@@ -34,14 +34,14 @@ This file summarizes the current Metaplex Protocol fee schedule for transparency
 
 *This fee only applies when creators withdraw liquidity
 
-### Launch Pool Trading
+### Launch Pool CPMM
 
 | Instruction            | Fee (SOL) |
 |------------------------|-----------|
 | Liquidity requirement  | 20%*      |
-| Protocol fee           | 0.50%     |
+| Protocol fee           | 0.40%     |
 | LP fees                | 0.42%     |
-| Raydium fees           | 0.08%     |
+| Raydium fees           | 0.04%     |
 
 *Subject to a 1 year unlock schedule with quarterly unlocks.
 
