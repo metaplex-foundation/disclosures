@@ -1,6 +1,6 @@
 # Metaplex Protocol Fees
 
-Last Updated: April 21, 2026
+Last Updated: September 29, 2026
 
 This file summarizes the current Metaplex Protocol fee schedule for transparency and public reference. Fees may change over time based on ecosystem needs and governance decisions. Users and developers should always verify the latest schedule
 
@@ -77,7 +77,31 @@ Paid by the minter, which is typically individual collectors minting new digital
 
 
 ------------------------------------------------------------
-## 5. BUBBLEGUM v1 (Legacy)
+## 5. MPL-3643
+------------------------------------------------------------
+Flat fees paid in SOL by the issuer. Nothing is a percentage of value
+transferred, capital raised, or assets under management.
+
+| Instruction                                                | Fee         |
+|------------------------------------------------------------|-------------|
+| Asset configuration (once per configuration or amendment)  | 0.063 SOL   |
+| Holder account activation (once per holder)                | 0.034 SOL   |
+| Distribution execution (once per recipient)                | 0.00085 SOL |
+
+
+------------------------------------------------------------
+## 6. MPL-DISTRO
+------------------------------------------------------------
+Paid by the payer of the successful claim transaction. Receipt
+subsidies do not cover this fee.
+
+| Instruction                        | Fee       |
+|------------------------------------|-----------|
+| distribute / distributeToLegacyNft | 0.002 SOL |
+
+
+------------------------------------------------------------
+## 7. BUBBLEGUM v1 (Legacy)
 ------------------------------------------------------------
 
 | Instruction | Fee  |
@@ -86,7 +110,7 @@ Paid by the minter, which is typically individual collectors minting new digital
 
 
 ------------------------------------------------------------
-## 6. MPL-HYBRID
+## 8. MPL-HYBRID
 ------------------------------------------------------------
 
 | Instruction | Fee       |
@@ -95,7 +119,7 @@ Paid by the minter, which is typically individual collectors minting new digital
 
 
 ------------------------------------------------------------
-## 7. FUSION (TRIFLE)
+## 9. FUSION (TRIFLE)
 ------------------------------------------------------------
 
 | Instruction      | Fee       |
