@@ -90,7 +90,18 @@ transferred, capital raised, or assets under management.
 
 
 ------------------------------------------------------------
-## 6. BUBBLEGUM v1 (Legacy)
+## 6. MPL-DISTRO
+------------------------------------------------------------
+Paid by the payer of the successful claim transaction. Receipt
+subsidies do not cover this fee.
+
+| Instruction                        | Fee       |
+|------------------------------------|-----------|
+| distribute / distributeToLegacyNft | 0.002 SOL |
+
+
+------------------------------------------------------------
+## 7. BUBBLEGUM v1 (Legacy)
 ------------------------------------------------------------
 
 | Instruction | Fee  |
@@ -99,7 +110,7 @@ transferred, capital raised, or assets under management.
 
 
 ------------------------------------------------------------
-## 7. MPL-HYBRID
+## 8. MPL-HYBRID
 ------------------------------------------------------------
 
 | Instruction | Fee       |
@@ -108,7 +119,7 @@ transferred, capital raised, or assets under management.
 
 
 ------------------------------------------------------------
-## 8. FUSION (TRIFLE)
+## 9. FUSION (TRIFLE)
 ------------------------------------------------------------
 
 | Instruction      | Fee       |
