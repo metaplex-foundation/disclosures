@@ -4,7 +4,7 @@ This repository is the public home for Metaplex Protocol disclosures. It exists 
 
 ## Contents
 
-- [Protocol Fees](protocol-fees.md) — current fee schedule across Metaplex programs (Genesis, MPL-Core, Bubblegum, Token Metadata, MPL-Hybrid, Fusion) and how protocol fees are used.
+- [Protocol Fees](protocol-fees.md) — current fee schedule across Metaplex programs (Genesis, MPL-Core, Bubblegum, Token Metadata, MPL-3643, MPL-Hybrid, Fusion) and how protocol fees are used.
 - [Disclaimer](DISCLAIMER.md) — important information about risks associated with using the Protocol.
 
 ## About
